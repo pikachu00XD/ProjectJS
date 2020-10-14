@@ -37,3 +37,14 @@ while(x<=10)
 console.log(result);
 
 //Zadanie 5
+
+var n = 7
+
+for(var x = 0; x<=n; x++)
+  {
+    if(x%2==0){console.log(x + " - " + "parzysta")}
+    
+    else{console.log(x + " - " + "nieparzysta")}
+  }
+
+//Zadanie 6
