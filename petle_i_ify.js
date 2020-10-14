@@ -48,3 +48,23 @@ for(var x = 0; x<=n; x++)
   }
 
 //Zadanie 6
+
+var i = 0;
+var j = 0;
+
+for(var x = 0; x<=10; x++)
+  {
+    while(x<11)
+      {
+        i++;
+        break;
+      }
+    while(x<11)
+      {
+        j+=2;
+        break;
+      }
+    console.log("i = " + i, "j = " + j);
+  }
+
+//Zadanie 7
