@@ -72,3 +72,27 @@ for(var x = 1; x<=100; x++)
   }
 
 //Zadanie 8
+
+//a
+
+var x = '*';
+
+for (var i=0;i<5;i++){
+    console.log(x);
+    x +='*';
+}
+
+//b
+
+var x = ' *';
+var z = 5;
+
+for (var i=0;i<z;i++){
+    var space = '';
+    for (var k=0; k<z-i; k++){
+        space += ' ';
+    }
+    console.log(space + x);
+    x +=' *';
+}
+
