@@ -59,7 +59,7 @@ for(let i=0; i< 5; i++)
 
 //Zadanie 7
 
-console.log("0");
+console.log('0');
 for(var x = 0; x<=100; x++)
   {
     if(x%3==0 && x%5==0){console.log("FizzBuzz")}
